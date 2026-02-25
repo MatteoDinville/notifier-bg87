@@ -1,8 +1,9 @@
 name: BG87 Forum message notifier
 
 on:
-  schedule:
-    - cron: "0 * * * *"
+  schedule:    
+  - cron: "0 10 * * *"
+  - cron: "0 19 * * *"
   workflow_dispatch:
 
 jobs:
